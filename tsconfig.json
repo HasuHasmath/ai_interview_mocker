@@ -1,3 +1,39 @@
+// {
+//   "compilerOptions": {
+//     "lib": [
+//       "dom",
+//       "dom.iterable",
+//       "esnext"
+//     ],
+//     "allowJs": true,
+//     "skipLibCheck": true,
+//     "strict": false,
+//     "noEmit": true,
+//     "incremental": true,
+//     "module": "esnext",
+//     "esModuleInterop": true,
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+//     "jsx": "preserve",
+//     "plugins": [
+//       {
+//         "name": "next"
+//       }
+//     ]
+//   },
+//   "include": [
+//     "next-env.d.ts",
+//     ".next/types/**/*.ts",
+//     "**/*.ts",
+//     "**/*.tsx"
+// , "app/dashboard/layout.jsx", "app/(auth)/sign-up/[[...sign-up]]/page.jsx"  ],
+//   "exclude": [
+//     "node_modules"
+//   ]
+// }
+
+
 {
   "compilerOptions": {
     "lib": [
@@ -26,8 +62,10 @@
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "app/dashboard/layout.jsx", "app/(auth)/sign-up/[[...sign-up]]/page.jsx"  ],
+    "**/*.tsx",
+    "app/dashboard/layout.jsx",
+    "app/(auth)/sign-up/[[...sign-up]]/page.jsx"
+  ],
   "exclude": [
     "node_modules"
   ]
